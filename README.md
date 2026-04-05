@@ -26,6 +26,21 @@ It works by:
 
 ---
 
+## 🎓 Educational Purpose
+
+> **This software was created solely for educational and learning purposes.**
+>
+> I built GhostAssist to explore and learn about:
+> - Electron desktop app development
+> - Real-time speech-to-text with Faster-Whisper
+> - AI inference via the Groq API
+> - Cross-process IPC communication between Node.js and Python
+> - Screen overlay techniques using Electron's content protection API
+>
+> **⛔ Do NOT misuse this software.** Using GhostAssist to cheat in job interviews, assessments, or any evaluations is unethical and may violate the terms of service of the platforms you use, as well as your employer's or institution's code of conduct. The author takes no responsibility for any misuse of this project.
+
+---
+
 ## ✨ Features
 
 - 🎭 **Invisible to screen capture** — uses Electron's `setContentProtection` to hide the overlay from Zoom, Teams, Meet, and OBS
