@@ -1,0 +1,33 @@
+# --- Node & Frontend (React/Vite) ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*
+
+# --- Electron ---
+# We ignore the release folder because we upload the .exe manually to GitHub Releases
+release/
+*.asar
+win-unpacked/
+
+# --- Python Engine ---
+python/.venv/
+python/venv/
+python/env/
+python/build/
+python/dist/
+python/__pycache__/
+python/*.spec
+
+# --- Local User Data ---
+# Important: This ignores the local file where your API key is stored during testing
+config.json
+
+# --- OS & Editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

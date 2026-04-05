@@ -1,0 +1,42 @@
+# --- Node / React / Vite ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*
+!.env.example
+
+# --- Electron ---
+release/
+*.asar
+build/
+
+# --- Python / Sidecar ---
+python/.venv/
+python/venv/
+python/env/
+python/build/
+python/dist/
+python/__pycache__/
+python/*.spec
+.python-version
+
+# --- Local Data (electron-store) ---
+# This ignores the local file where your API key is saved during testing
+config.json
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+*.log
+desktop.ini
+
+# --- Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,51 @@
+{
+  "name": "ghost-assist",
+  "version": "1.0.0",
+  "description": "GhostAssist – invisible AI interview overlay (Electron + React + Vite)",
+  "main": "electron/main.js",
+  "author": "Muhammad Aziz",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && electron .\"",
+    "build": "vite build && electron-builder",
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "com.ghostassist.app",
+    "productName": "GhostAssist",
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "python/dist/sidecar.exe",
+        "to": "sidecar.exe"
+      }
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false
+    }
+  },
+  "dependencies": {
+    "electron-store": "^10.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "electron": "^41.1.1",
+    "electron-builder": "^26.8.1",
+    "vite": "^6.0.5",
+    "wait-on": "^8.0.1"
+  }
+}
