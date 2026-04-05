@@ -416,7 +416,7 @@ This project is licensed under the **MIT License**.
 ```
 MIT License
 
-Copyright (c) 2024 Muhammad Aziz
+Copyright (c) 2024 Musharraf Aziz
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -441,7 +441,7 @@ SOFTWARE.
 
 ## 📬 Contact
 
-**Author:** Muhammad Aziz
+**Author:** Musharraf Aziz
 
 - 🐙 **GitHub:** [@engrmaziz](https://github.com/engrmaziz)
 - 📧 **Email:** *Available on GitHub profile*
@@ -451,7 +451,7 @@ SOFTWARE.
 
 <div align="center">
 
-**Built with ❤️ by [Muhammad Aziz](https://github.com/engrmaziz)**
+**Built with ❤️ by [Musharraf Aziz](https://github.com/engrmaziz)**
 
 *If GhostAssist helped you land your dream job, give it a ⭐ on GitHub!*
 
